@@ -1,5 +1,5 @@
 ## Descripción ✔
-Este es un portfolio creado con HTML Y CSS.
+Este es una pagina creada con HTML Y CSS.
 
 ## Autor -👩‍💻
 **Yabeth Villafuerte**
