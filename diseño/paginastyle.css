@@ -1,0 +1,339 @@
+/* ------------DISEÑOS GENERALES----------- */
+
+:root{
+    --bg-facebook:#2E406E;
+    --bg-instagram: #3F60A5;
+    --cl-pagina:rgb(255, 153, 0);
+    --cl-letra-gris:gray;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box   ;
+}
+
+header{
+    height: 36vh;
+    /* background-color: red; */
+}
+
+.superior-redes-sociales{    
+    height: 40px;
+    padding-top:5px;
+    padding-right: 80px;
+    background-color: rgb(240, 240, 240);
+    text-align: end;
+    font-size: 10px;
+    /* text-align: center; */
+    
+}
+
+.superior-redes-sociales a{
+    margin-right: 6px;
+}
+
+
+.txt-siguenos-rs{
+    font-weight: 370;
+    color: gray;
+}
+
+.icono-rs {
+    color: var(--cl-pagina);
+}
+
+
+.container-img-logo-principal img{
+    height: 100%;
+}
+
+.container-img-logo-principal{
+    height: 20vh;
+    text-align: center;
+    /* background-color: red; */
+}
+
+/* -----barra de navegacion----- */
+.container-nav{
+    /* background-color: black; */
+    width: 100%;
+}
+
+.menu-navbar{
+    justify-content: center ;
+    display: flex;
+}
+
+.lista-navbar{
+    display: flex;
+    padding: 10px;
+}
+
+.lista-navbar li{
+    padding: 14px;
+    font-size: 15px;
+}
+
+.lista-navbar a{
+    transition:  all ease 500ms; 
+    color: var(--cl-letra-gris);
+}
+
+.lista-navbar a:hover{
+    transition: all ease 500ms;
+    color: var(--cl-pagina);
+    border-bottom: var(--cl-pagina) 1px solid;
+}
+
+/* SEGUDA SECCION / IMAGEM HERO */
+.container-img-principal-superior{
+    height: 100%;
+}
+
+.container-img-principal-superior img{
+    background-size: cover;
+    width: 100%;    
+}
+
+/* TERCERA SECCION / MENSAJE INFORMATIVO */
+.section-txt-informativo-superior{
+    /* background-color: red; */
+    height: 40vh;    
+}
+
+.container-txt-informativo-superior h3{
+    font-size: 32px;
+    font-weight: 500;
+    align-items: center;
+    padding-top: 50px;
+    color: var(--cl-letra-gris);
+    text-align: center;
+}
+
+/* CUARTA SECCION / OFRECEMOS */
+.img-box-ofrecemos{
+    height: 100vh;
+    /* background-color: red; */
+    background-image: url(/img/img-estatica-fixed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.box-ofrecemos h3{
+    margin-top: 90px;
+    transform: translate(90%);
+    position: absolute;
+    /* background-color: red; */
+    font-size: 35px;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.918);
+}
+
+/* CAJAS DE OFRECEMOS */
+.container-boxs-txt{
+    display: flex;
+    padding-top: 180px;
+    padding-left: 40px;
+}
+
+.box{
+    box-sizing: border-box;
+    background-color: rgba(49, 49, 49, 0.486);
+    margin: 15px;
+    width: 600px;
+    /* padding: 70px; */
+    text-align: center;
+    height: 150px;
+    transition: all ease 400ms;
+    border-radius: 7px;   
+}
+
+.box p{
+    padding-top: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+.segunda-caja{
+    padding-left: 40px;
+    display: flex;
+}
+
+.box:hover{
+    transform: scale(1.03);
+    background-color: rgba(114, 114, 114, 0.548);
+    /* background-color: rgba(255, 166, 0, 0.178); */
+    transition: all ease 400ms;
+}
+
+
+
+/* SEXTA SECCION / ACTUALIDAD Y OPINIONES  */
+
+/* DISMINUCION DE TAMAÑO DE IMAGENES */
+.img-information img, .box-logo-aspid img{
+    width: 200px;
+    
+}
+
+/* INICIO */
+
+.information-mas{
+    background-color:  rgb(247,247,247);
+
+    height: 85vh;
+    padding-left:25px;
+    padding-top: 50px;
+    
+    /* padding: 10px; */
+}
+
+.container-boxs-information{
+    /* box-sizing: border-box; */
+    padding: 0px 50px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+}
+.container-boxs-information .txt-information{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container-boxs-information .linea-information{
+    width: 95%;
+    margin: 10px 0px;
+    border:2px solid var(--cl-pagina);
+}
+
+.cajas{
+    /* min-width: 400px; */
+    width: 800px;
+}
+
+.cajas img{
+    float: left;
+}
+/* editar contenido de las cajas */
+.caja-txt p{
+    word-wrap:break-word;
+    /* text-align: center; */
+    /* padding: 20px ; */
+    font-size: 20px;
+    width: 590px;
+    color: rgb(92, 92, 92);
+    padding-bottom: 30px;
+}
+.img-information img{
+    width: 300px;
+    margin: 10px 30px 15px 0px;
+}
+
+.img-aside-actualidad{
+    padding-bottom: 30px;
+}
+.container-img-opinion img{
+    width: 220px;
+}
+
+.notice-boton{
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 22px;
+    color: white;
+    background-color: var(--cl-pagina);
+    border: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all ease 400ms;
+}
+
+.notice-boton:hover{
+    background-color: rgb(245, 188, 82);
+}
+
+.caja-txt h3{
+    color: rgb(128, 128, 128);
+}
+
+.cajas .txt-information {
+    color: rgb(163, 162, 162);
+    font-weight: 600;
+}
+
+.txt-information-opinion p{
+    font-style: italic;
+}
+/* CAJA DE LOGO ASPID Y REDES SOCIALES */
+
+.box-logo-aspid{
+    height: 38vh;
+    /* display: flex; */
+    /* background-color:  rgb(243,243,243); */
+}
+
+ .container-img-aspid img{
+    padding-top: 20px;
+    height: 170px;
+    width: 270px;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin: auto;
+}
+
+.barra-redes-sociales-aspid{
+    display: flex;
+    /* background-color: black; */
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.box-redes-sociales-aspid i{
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(155,155,155);
+}
+
+.box-redes-sociales-aspid i:hover{
+    background-color: rgba(185,185,185);
+}
+
+/* FOOOTER */
+
+footer{
+    background-color: var(--cl-pagina);
+    height: 30vh;
+}
+
+.box-nav-footer{
+    display: flex;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    /* margin-top: 20px;     */
+}
+.nav-footer{
+    margin-top: 20px;
+}
+
+.nav-footer li{
+    margin: 10px;
+}
+.nav-footer a{
+    color: white;
+    margin: 5px;
+}
+
+.nav-footer a:hover{
+    /* color: rgb(220, 220, 220); */
+    text-decoration: underline;
+}
+
+
+
+

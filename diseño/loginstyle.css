@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(/img/kike-vega-F2qh3yjz6Jk-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+ 
+}
+
+.caja-formulario{
+    width: 390px;
+    height: 520px;
+    background-color: rgba(225, 225, 225, 0.226);
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding:  50px;
+    border-radius: 20px;
+    
+}
+
+.logo{
+    border-radius: 50%;
+    width: 100px;
+    /* height: 40px; */
+    position: absolute;
+    top: -10%;
+    left: calc(10% - -25%);
+}
+
+.titulo-formulario{
+    color:rgba(0, 0, 0, 0.74);
+    text-align: center;
+    /* color: white; */
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.61);
+    font-size: 20px;
+    /* color: white; */
+}
+
+.caja-relleno input{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    
+}
+[type="password"],
+[type="text"]{
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid white;
+    /* color: white; */
+    height: 40px;
+    color: white;
+}
+
+input::placeholder{
+    color:rgb(37, 37, 37);
+    font-weight: 600;
+}
+
+.caja-formulario .boton{
+    width: 80%;
+    font-size: 20px;
+    margin: 0px 25px;
+    height: 40px;
+}
+
+.boton{
+    border-radius: 30px;
+    cursor: pointer;
+    /* padding: 7px; */
+    background-color: #b80f22;
+    color: white;
+    border: none;
+    transition: ease 500ms;
+}
+
+.boton:hover{
+    background-color: red;
+    transition: ease 500ms;
+}
+
+.caja-ayuda{
+    margin-top: 20px;
+}
+
+.ayuda{
+    display: block;
+    color: white;
+    height: 28px;
+    text-decoration: none;
+}
+
+.ayuda:hover{
+    color: rgb(212, 212, 212);
+    text-decoration: underline;
+}
+
